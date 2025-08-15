@@ -1,0 +1,83 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: rgb(231, 214, 192);
+    margin-top: 30px;
+}
+
+.title {
+   color: #507373;
+   text-align: center;
+   background-color: white;
+   padding: 20px;
+   border-radius: 10px;
+   margin: 30px 20px;
+   border: 4px solid #507373;
+}
+
+img {
+    float: left;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border: 4px solid #507373;
+    width: 440px;
+}
+
+.return-button {
+    color: white;
+    text-decoration: none;
+    background-color: #507373;
+    padding: 10px;
+    border: 2px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.return-button:hover {
+    background-color: rgb(130, 106, 129);
+}
+
+.contenedor-description-detail {
+    background-color: white;
+    width: 65%; 
+    margin: 10px 4px; 
+    border: 4px solid #507373;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.details-header, .description-header, .ingredients-header, .steps-header {
+    color: white;
+    background-color: #507373;
+    padding: 6px 14px;
+    font-size: 24px;
+}
+
+.description {  padding: 0 14px; font-size: 16.5px; text-align: justify; }
+
+.contenedor {
+    clear: both;
+    background-color: white;
+    margin: 20px; 
+    border: 4px solid #507373;
+    border-radius: 10px;
+}
+
+.contenedor.ingredients {
+    margin: 20px;
+}
+
+.contenedor.steps {
+    margin: 30px 20px;
+}
+
+.ingredients {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.steps {
+    font-size: 18px;
+}
+
